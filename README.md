@@ -1,2 +1,2 @@
 Place your Python scripts within the 'exercises' directory located inside the appropriate session folder.  
-To execute the tests, navigate to the tests directory (for instance: cd session_2/tests) and initiate the tests using the following command: `python tests_<function>.py`. Example: `python tests_count_lower.py`.
+To execute the tests, navigate to the tests directory (for instance: cd session_2/tests) and initiate the tests using the following command: `python3 tests_<function>.py`. Example: `python3 tests_count_lower.py`.
