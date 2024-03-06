@@ -43,6 +43,11 @@ class TestExercises(unittest.TestCase):
         array_remove_value_stable(A, 1)
         self.assertEqual(A,[2,3,4,5])
 
+    def test_array_remove_value_stable_5(self):
+        A = [1,2,3,4,5,5]
+        array_remove_value_stable(A, 5)
+        self.assertEqual(A,[1,2,3,4])
+
 
 
         
