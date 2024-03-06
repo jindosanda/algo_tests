@@ -1,2 +1,2 @@
-Save in this folder the following files:
-- 
+Put all your solutions in a file named "array_rem.py" in the folder "exercises". 
+Your 3 functions should be named "array_remove_pos", "array_remove_value" and "array_remove_value_stable".
