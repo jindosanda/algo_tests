@@ -4,13 +4,8 @@ from pathlib import Path
 current_dir = Path(__file__).parent
 parent_dir = current_dir.parent
 sys.path.append(str(parent_dir / 'exercises'))
-from array_rem import array_remove_pos, array_remove_value, array_remove_value_stable
+from array_rem import array_remove_pos, array_remove_value
 import random 
-
-def test_time():
-    A_len = random.randint(10000,100000)
-    A = [random.randint(0,100) for _ in range(A_len)]
-    array_remove_pos(A,random.randint(0,A_len-1))
     
 class TestExercises(unittest.TestCase):
     def test_array_remove_value(self):

@@ -4,7 +4,7 @@ from pathlib import Path
 current_dir = Path(__file__).parent
 parent_dir = current_dir.parent
 sys.path.append(str(parent_dir / 'exercises'))
-from array_rem import array_remove_pos, array_remove_value, array_remove_value_stable
+from array_rem import array_remove_pos
 import random 
 
 def test_time():
