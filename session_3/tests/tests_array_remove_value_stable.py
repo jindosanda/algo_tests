@@ -23,7 +23,27 @@ class TestExercises(unittest.TestCase):
         self.assertEqual(A,[2, 4, 2, 1])
         array_remove_value_stable(A, 2)
         self.assertEqual(A,[4, 1])
-        
+        array_remove_value_stable(A, 1)
+        self.assertEqual(A,[4])
+        array_remove_value_stable(A, 4)
+        self.assertEqual(A,[])
+
+    def test_array_remove_value_stable_2(self):
+        A = [1,1,1,1,1,1,1,1,1,1]
+        array_remove_value_stable(A, 1)
+        self.assertEqual(A,[])
+    
+    def test_array_remove_value_stable_3(self):
+        A = [1,2,3,4,5]
+        array_remove_value_stable(A, 6)
+        self.assertEqual(A,[1,2,3,4,5])
+
+    def test_array_remove_value_stable_4(self):
+        A = [1,2,3,4,5]
+        array_remove_value_stable(A, 1)
+        self.assertEqual(A,[2,3,4,5])
+
+
 
         
 if __name__ == '__main__':
