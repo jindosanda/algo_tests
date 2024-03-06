@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-03-06 Wed 00:28 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Exercise Session n. 3</title>
+<meta name="author" content="Antonio Carzaniga" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+ body { font-family: "Noto Sans", Helvetica, sans-serif;
+	font-size: medium;
+	padding: 2em;
+	margin: auto;
+	max-width: 50em; }
+ .title  { text-align: left;
+	   padding-bottom: 0.5ex;
+	   margin-bottom: 2ex;
+	   border-bottom: 2pt solid #000000; }
+.subtitle { text-align: right; font-size: medium; font-weight: bold; margin-top:0; }
+.todo   { font-family: "Hack", monospace; color: red; }
+.done   { font-family: "Hack", monospace; color: green; }
+.priority { font-family: "Hack", monospace; color: orange; }
+.tag    { background-color: #eeeeee; font-family: "Hack", monospace;
+	  padding: 2px; font-size: 80%; font-weight: normal; }
+.timestamp { color: #bebebe; }
+.timestamp-kwd { color: #5f9ea0; }
+.org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+.org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+.org-center { margin-left: auto; margin-right: auto; text-align: center; }
+.underline { text-decoration: underline; }
+h2 { border-top: 1pt solid #000000;
+     margin-top: 3ex; }
+#postamble p, #preamble p { font-size: 90%; margin: .2em; }
+p.verse { margin-left: 3%; }
+pre {
+    border: 1px solid #cccccc;
+    box-shadow: 3px 3px 3px #eeeeee;
+    padding: 8pt;
+    font-family: "Hack", monospace;
+    overflow: auto;
+    margin: 0;
+    background-color: #e8e8e8;
+}
+pre.src {
+    position: relative;
+    overflow: auto;
+}
+pre.example {
+    position: relative;
+    overflow: auto;
+    border-style: solid;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 6pt;
+    border-color: #c8c8c8;
+}
+code { 
+    font-family: "Hack", monospace;
+    padding-left: 1pt;
+    padding-right: 1pt;
+    background-color: #e8e8e8;
+}
+a:link {
+    color: #603000;
+    text-decoration: none;
+    font-weight: bold; 
+}
+a:visited {
+    color: #603010;
+    text-decoration: none;
+    font-weight: bold; 
+}
+table { margin: auto; border-collapse:collapse; }
+thead { background-color: #f0f0f0; font-weight: bold; }
+caption.t-above { caption-side: top; }
+caption.t-bottom { caption-side: bottom; }
+td, th { vertical-align:top; }
+th.org-right  { text-align: center;  }
+th.org-left   { text-align: center;   }
+th.org-center { text-align: center; }
+td.org-right  { text-align: right;  }
+td.org-left   { text-align: left;   }
+td.org-center { text-align: center; }
+dt { font-weight: bold; }
+.footpara { display: inline; }
+.footdef  { margin-bottom: 1em; }
+.figure { padding: 1em; }
+.figure p { text-align: center; }
+.equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+.equation {
+    vertical-align: middle;
+}
+.equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+}
+.inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+}
+#org-div-home-and-up { text-align: right; font-size: 70%; white-space: nowrap; }
+textarea { overflow-x: auto; }
+.linenr { font-size: smaller }
+.code-highlighted { background-color: #ffff00; }
+.org-info-js_info-navigation { border-style: none; }
+#org-info-js_console-label { font-size: 10px; font-weight: bold; white-space: nowrap; }
+.org-info-js_search-highlight { background-color: #ffff00; color: #000000; font-weight: bold; }
+.org-svg { width: 90%; }
+.face-builtin { color: #338033; }
+.face-comment { color: #5C7A99; }
+.face-comment-delimiter { color: #5C7A99; }
+.face-constant { color: #335980; }
+.face-doc { color: #80335A; }
+.face-function-name { color: #3D3380; font-weight: bold; }
+.face-keyword { color: #000000; font-weight: bold; }
+.face-preprocessor { color: #338033; }
+.face-string { color: #648033; font-style: italic; }
+.face-type { color: #803333; }
+.face-variable-name { color: #333380; }
+  /*]]>*/-->
+</style>
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Exercise Session n. 3
+<br />
+<span class="subtitle">Algorithms and Data Structures</span>
+</h1>
+<p> Clone the following repository: <a href='https://github.com/jindosanda/algo_tests' target="_blank">https://github.com/jindosanda/algo_tests</a> and place your programs inside the exercises folder under the appropriate session folder (session_3/exercises)<br>
+Read the README files to run the tests!</p>
+<p>
+We will work with arrays.  Remember that you are not allowed to use
+the <code>del</code> operation (e.g., <code>del A[i]</code>) nor any list-splicing operation
+(e.g., <code>A[i:i+1] = []</code>), nor other operation that does not have a
+constant-time complexity (e.g., <code>A.remove(x)</code> or <code>x in A</code>).  In
+practice, the only things you can do with an array is to use its
+elements as variables (e.g., <code>A[i] = x</code>) or add a single element at
+the end (e.g., <code>A.append(x)</code>) or remove a single element at the end
+(<code>A.pop()</code> specifically without parameters).
+</p>
+
+<div id="outline-container-org0250d49" class="outline-2">
+<h2 id="org0250d49">Removing a Given Element from an Array (array_rem.py)</h2>
+<div class="outline-text-2" id="text-org0250d49">
+<p>
+Write a function <code>array_remove_pos(A,i)</code> that, given an array \(A\) and
+a position \(i\), removes the element <code>A[i]</code>.  The complexity of
+<code>array_remove(A,x)</code> must be \(O(1)\).  
+</p>
+</div>
+
+<div id="outline-container-org4d5e492" class="outline-3">
+<h3 id="org4d5e492">Examples</h3>
+<div class="outline-text-3" id="text-org4d5e492">
+<pre class="example" id="orgf70da80">
+&gt;&gt;&gt; A = [7, 5, 2, 3, 5, 7, 3, 4, 2, 1]
+&gt;&gt;&gt; len(A)
+10
+&gt;&gt;&gt; array_remove_pos(A,7)
+&gt;&gt;&gt; len(A)
+9
+&gt;&gt;&gt; 4 in A
+False
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org3438e4a" class="outline-2">
+<h2 id="org3438e4a">Removing Elements from an Array (array_rem.py)</h2>
+<div class="outline-text-2" id="text-org3438e4a">
+<p>
+Write a function <code>array_remove_value(A,x)</code> that, given an array \(A\)
+and a value \(x\), changes \(A\) so that it does not contain any value
+equal to \(x\).  The complexity of <code>array_remove(A,x)</code> must be \(O(n)\),
+and <code>array_remove(A,x)</code> must operate on array \(A\) <i>in-place,</i> so it
+may only allocate a constant amount of memory.
+</p>
+</div>
+
+<div id="outline-container-orgf426a0c" class="outline-3">
+<h3 id="orgf426a0c">Examples</h3>
+<div class="outline-text-3" id="text-orgf426a0c">
+<pre class="example" id="org424ba3d">
+&gt;&gt;&gt; A = [7, 5, 2, 3, 5, 7, 3, 4, 2, 1]
+&gt;&gt;&gt; len(A)
+10
+&gt;&gt;&gt; array_remove_value(A,7)
+&gt;&gt;&gt; len(A)
+8
+&gt;&gt;&gt; 7 in A
+False
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgcee9a18" class="outline-2">
+<h2 id="orgcee9a18">Removing Elements from an Array While Maintaining Order (array_rem.py)</h2>
+<div class="outline-text-2" id="text-orgcee9a18">
+<p>
+If you have not already done that with <code>array_remove_value(A,x)</code>,
+write a function <code>array_remove_value_stable(A,x)</code> that, given an array
+\(A\) and a value \(x\), changes \(A\) so that it does not contain any value
+equal to \(x\), and leaves the remaining elements in the original order
+within \(A\).  The complexity of <code>array_remove_value_stable(A,x)</code> must
+be \(O(n)\).  Also, <code>array_remove_value_stable(A,x)</code> must operate on
+array \(A\) <i>in-place.</i>
+</p>
+</div>
+
+<div id="outline-container-orge5d7009" class="outline-3">
+<h3 id="orge5d7009">Examples</h3>
+<div class="outline-text-3" id="text-orge5d7009">
+<pre class="example" id="orgced0785">
+&gt;&gt;&gt; A = [7, 5, 2, 3, 5, 7, 3, 4, 2, 1]
+&gt;&gt;&gt; len(A)
+10
+&gt;&gt;&gt; array_remove_value_stable(A,7)
+&gt;&gt;&gt; len(A)
+8
+&gt;&gt;&gt; A
+[5, 2, 3, 5, 3, 4, 2, 1]
+</pre>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
