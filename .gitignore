@@ -3,3 +3,5 @@ session_*/exercises/__pycache__/*
 extra/exercises/*.py
 extra/exercises/__pycache__/*
 midterms/*/exercises/solutions/*.py
+session_4/exercises/solutions/session4.py
+!session_4/exercises/session4.py
