@@ -4,7 +4,7 @@ from pathlib import Path
 current_dir = Path(__file__).parent
 parent_dir = current_dir.parent
 sys.path.append(str(parent_dir / 'exercises'))
-from largest_subarray_sum import largest_subarray_sum
+from session5 import largest_subarray_sum
 
 
 class LargestSubarraySum(unittest.TestCase):
