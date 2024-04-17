@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-03-06 Wed 00:28 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Exercise Session n. 8</title>
+<meta name="author" content="Antonio Carzaniga" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+ body { font-family: "Noto Sans", Helvetica, sans-serif;
+	font-size: medium;
+	padding: 2em;
+	margin: auto;
+	max-width: 50em; }
+ .title  { text-align: left;
+	   padding-bottom: 0.5ex;
+	   margin-bottom: 2ex;
+	   border-bottom: 2pt solid #000000; }
+.subtitle { text-align: right; font-size: medium; font-weight: bold; margin-top:0; }
+.todo   { font-family: "Hack", monospace; color: red; }
+.done   { font-family: "Hack", monospace; color: green; }
+.priority { font-family: "Hack", monospace; color: orange; }
+.tag    { background-color: #eeeeee; font-family: "Hack", monospace;
+	  padding: 2px; font-size: 80%; font-weight: normal; }
+.timestamp { color: #bebebe; }
+.timestamp-kwd { color: #5f9ea0; }
+.org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+.org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+.org-center { margin-left: auto; margin-right: auto; text-align: center; }
+.underline { text-decoration: underline; }
+h2 { border-top: 1pt solid #000000;
+     margin-top: 3ex; }
+#postamble p, #preamble p { font-size: 90%; margin: .2em; }
+p.verse { margin-left: 3%; }
+pre {
+    border: 1px solid #cccccc;
+    box-shadow: 3px 3px 3px #eeeeee;
+    padding: 8pt;
+    font-family: "Hack", monospace;
+    overflow: auto;
+    margin: 0;
+    background-color: #e8e8e8;
+}
+pre.src {
+    position: relative;
+    overflow: auto;
+}
+pre.example {
+    position: relative;
+    overflow: auto;
+    border-style: solid;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 6pt;
+    border-color: #c8c8c8;
+}
+code { 
+    font-family: "Hack", monospace;
+    padding-left: 1pt;
+    padding-right: 1pt;
+    background-color: #e8e8e8;
+}
+a:link {
+    color: #603000;
+    text-decoration: none;
+    font-weight: bold; 
+}
+a:visited {
+    color: #603010;
+    text-decoration: none;
+    font-weight: bold; 
+}
+table { margin: auto; border-collapse:collapse; }
+thead { background-color: #f0f0f0; font-weight: bold; }
+caption.t-above { caption-side: top; }
+caption.t-bottom { caption-side: bottom; }
+td, th { vertical-align:top; }
+th.org-right  { text-align: center;  }
+th.org-left   { text-align: center;   }
+th.org-center { text-align: center; }
+td.org-right  { text-align: right;  }
+td.org-left   { text-align: left;   }
+td.org-center { text-align: center; }
+dt { font-weight: bold; }
+.footpara { display: inline; }
+.footdef  { margin-bottom: 1em; }
+.figure { padding: 1em; }
+.figure p { text-align: center; }
+.equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+.equation {
+    vertical-align: middle;
+}
+.equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+}
+.inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+}
+#org-div-home-and-up { text-align: right; font-size: 70%; white-space: nowrap; }
+textarea { overflow-x: auto; }
+.linenr { font-size: smaller }
+.code-highlighted { background-color: #ffff00; }
+.org-info-js_info-navigation { border-style: none; }
+#org-info-js_console-label { font-size: 10px; font-weight: bold; white-space: nowrap; }
+.org-info-js_search-highlight { background-color: #ffff00; color: #000000; font-weight: bold; }
+.org-svg { width: 90%; }
+.face-builtin { color: #338033; }
+.face-comment { color: #5C7A99; }
+.face-comment-delimiter { color: #5C7A99; }
+.face-constant { color: #335980; }
+.face-doc { color: #80335A; }
+.face-function-name { color: #3D3380; font-weight: bold; }
+.face-keyword { color: #000000; font-weight: bold; }
+.face-preprocessor { color: #338033; }
+.face-string { color: #648033; font-style: italic; }
+.face-type { color: #803333; }
+.face-variable-name { color: #333380; }
+  /*]]>*/-->
+</style>
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Exercise Session n. 8
+<br />
+<span class="subtitle">Algorithms and Data Structures</span>
+</h1>
+<p> Clone the following repository: <a href='https://github.com/jindosanda/algo_tests' target="_blank">https://github.com/jindosanda/algo_tests</a> or run <code>git pull</code> if you already clone it, and place your programs inside the exercises folder under the appropriate session folder (session_8/exercises)<br>
+Read the README files to run the tests.</p>
+
+<div id="outline-container-orgcee9a18" class="outline-2">
+<h2 id="orgcee9a18">Merge-Two-Sorted-Lists (session8.py)</h2>
+<div class="outline-text-2" id="text-orgcee9a18">
+  <h4>Question 1:</h2>  
+  <p> 
+    Write an algorithm Merge-Two-Sorted-Lists(L1, L2) that, given two singly-linked lists L1 and L2, merges them into a single sorted list in non-decreasing order. Each list input (L1 and L2) is a reference to the first element of a singly-linked list or nil if the list is empty. Each element x in the lists stores a value x.value and a reference x.next to the next element in the list, which might be nil if x is the last element. The merged list should also be returned as a reference to its first element or nil if the result is an empty list.
+    The function Merge-Two-Sorted-Lists(L1, L2) must operate in-place, meaning that it should not create any new list elements or use additional memory structures like arrays to store the values temporarily. The algorithm should effectively rearrange the nodes given in L1 and L2.
+  </p>
+  <h4>Question 2:</h2>  
+  <p> 
+    Analyze the complexity of your algorithm.
+  </p>
+</div>
+
+<div id="outline-container-orge5d7009" class="outline-3">
+<h3 id="orge5d7009">Examples</h3>
+<div class="outline-text-3" id="text-orge5d7009">
+<pre class="example" id="orgced0785">
+# List 1: 1 -> 2 -> 4
+node1 = ListNode(1)
+node2 = ListNode(2)
+node3 = ListNode(4)
+node1.next = node2
+node2.next = node3
+
+# List 2: 1 -> 3 -> 5
+node4 = ListNode(1)
+node5 = ListNode(3)
+node6 = ListNode(5)
+node4.next = node5
+node5.next = node6
+
+# Merge lists
+merged_head = merge_two_sorted_lists(node1, node4)
+
+# Print merged list
+current = merged_head
+while current:
+    print(current.value, end=" -> ")
+    current = current.next
+</pre>
+<p>This should output the merged list in sorted order:</p>
+<pre>
+  1 -> 1 -> 2 -> 3 -> 4 -> 5 -> 
+</pre>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
